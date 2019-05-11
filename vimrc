@@ -1,3 +1,12 @@
+set number
+set tabstop 4
+set shiftwidth 4
+set expandtab
+set incsearh
+set hls
+set encoding=utf-8
+set pyxversion=3
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -41,3 +50,12 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+set backspace=indent,eol,start
+set syntax=enable
+syntax on
+
+if filereadable(expand("~/.vimrc_background"))
+	let bash16colorspace=256
+	source ~/.vimrc_background
+endif
