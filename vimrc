@@ -1,8 +1,8 @@
 set number
-set tabstop 4
-set shiftwidth 4
+set tabstop=4
+set shiftwidth=4
 set expandtab
-set incsearh
+set incsearch
 set hls
 set encoding=utf-8
 set pyxversion=3
